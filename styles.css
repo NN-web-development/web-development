@@ -813,7 +813,7 @@ footer
     grid-column-end: 3;
     font-family: var(--ff-primary-1);
     text-transform: capitalize;
-    color: var(--primary-color-6);
+    /* color: var(--primary-color-6); */
     font-weight: 300;  
 }
 .footer-nav ul{
@@ -823,6 +823,10 @@ footer
     align-items: center;
 }
 
+.footer-nav ul li{
+    color: var(--primary-color-6);
+    /* transition: var(--transition); */
+}
 .footer-nav ul li  :hover{
     color: var(--primary-color-2);
     transition: var(--transition);
