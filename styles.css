@@ -723,6 +723,8 @@ contact
     /* margin-bottom: 2rem; */
     text-transform: capitalize;
     width: 17rem;
+    box-shadow: 0 2px var(--primary-color-9);
+
 }
 .contact p a{
     color: var(--primary-color-8);
