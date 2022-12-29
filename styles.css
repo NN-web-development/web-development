@@ -135,7 +135,7 @@ header{
     height: 100vh;
     background: linear-gradient(rgb(0, 0, 0,0.5),rgba(0, 0, 0, 0.5)),url(./images/laptop.jpg) ;
     
-    background-attachment: scroll;
+    background-attachment: fixed;
     background-size: cover;
     background-position: center;
     
@@ -745,7 +745,7 @@ color: var(--primary-color-6);
 .social-container:hover #contact{
     transform: translateY(-8px);
     transition: var(--transition);
-    color: var(--primary-color-10);
+    color: var(--primary-color-2);
 }
 .fab{
     font-size: 1.25rem;
