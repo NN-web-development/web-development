@@ -581,7 +581,7 @@ why choose us
     
 }
 .reasons-text{
-    width: 100%;
+    width: 50%;
     padding: 4rem;
     background: var(--primary-color-6);
     
@@ -644,6 +644,25 @@ font-weight: 800;
 }
 
      
+     @media screen and (max-width:1280px){
+        .choose-us-containers{
+            display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* padding: 0 0 1rem 0; */
+        /* gap: 1rem; */
+        
+        }
+        .reasons-text{
+            width: 100%;
+
+        }
+        .reasons{
+            max-width: 100%;
+        }
+        
+    }
      @media screen and (max-width:880px){
         .choose-us-containers{
             display: flex;
